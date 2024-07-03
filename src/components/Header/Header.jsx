@@ -8,7 +8,7 @@ function Header({filters,filter,onFilterChange}) {//header안의 중괄호 --> �
     <header className='header'>
       <button className='toggle'onClick={toggleDarkMode}>
         {!darkMode && <IoMoon />} 
-        {!darkMode && <IoSunnyOutline />}
+        {darkMode && <IoSunnyOutline />}
       </button>
       <ul className='filters'>
         {

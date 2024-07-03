@@ -17,8 +17,10 @@ function Todo({todo, onUpdate,onDelete}) {
    />
     <label htmlFor={id} className='text'>{text}</label>
     <span className='icon'>
-      <button className='button' onClick={handleDelete}><FaTrashCan /></button>
-      </span>
+      <button className='button' onClick={handleDelete}>
+        <FaTrashCan />
+      </button>
+    </span>
    </li>
   )
 }

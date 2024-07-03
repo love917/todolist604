@@ -214,7 +214,7 @@ color: var(--color-text);
     background-color: transparent;
     padding: 0;
     width: 12px;
-    height: 12px;
+    height: 16px;
   }
   
   .icon svg {
